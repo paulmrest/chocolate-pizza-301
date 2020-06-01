@@ -1,0 +1,153 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Yellowtail', cursive; */
+
+body {
+  background-color: white;
+  font-family: 'Merriweather', serif;
+  max-width: 900px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  margin-bottom: 60px;
+}
+
+.header-left img {
+  float: left;
+  margin-right: 10px;
+}
+
+h2#blog-title {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.0em;
+}
+
+span#blog-tag {
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9em;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  text-decoration: none;
+}
+
+hr {
+  background-image: url('../assets/hr.png');
+  border: none;
+  clear: both;
+  height: 15px;
+}
+
+section#post-header {
+  margin-top: 40px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 50px;
+}
+
+section#post-header h1 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+section#post-header p#post-date {
+  color: rgb(156, 156, 156);
+  float: left;
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+section#post-header button {
+  background-color: white;
+  border: none;
+  float: right;
+  outline: none;
+  text-transform: uppercase;
+}
+
+section#post-image {
+  margin-bottom: 30px;
+}
+
+article#post-text p {
+  color: rgb(138, 138, 138);
+  margin-bottom: 30px;
+  text-indent: 1.8em;
+}
+
+ul#recipe-items {
+  background-image: url(../assets/list-bg.png);
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.6em;
+  height: 260px;
+  margin-bottom: 30px;
+  padding: 40px 15px 0px 40px;
+}
+
+ul#recipe-items li {
+  color: rgb(138, 138, 138);
+  float: left;
+  width: 50%;
+  line-height: 32px;
+}
+
+section#personal-info {
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+section#personal-info img {
+  float: left;
+  margin-right: 20px;
+}
+
+section#personal-info h2 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  letter-spacing: 0.1em;
+}
+
+section#personal-info span#tag-line {
+  color: rgb(138, 138, 138);
+  float: left;
+  width: 65%;
+}
+
+section#personal-info button {
+  float: right;
+  position: relative;
+  bottom: 30px;
+  background-color: rgb(224, 101, 52);
+  border: none;
+  width: 150px;
+  height: 50px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.1em;
+  color: white;
+  text-transform: uppercase;
+}
+
+section#copyright {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+section#copyright img {
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+section#copyright p {
+  color: rgb(138, 138, 138);
+  padding: 5px;
+}
