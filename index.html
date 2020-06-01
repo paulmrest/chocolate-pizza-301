@@ -6,12 +6,12 @@
     <title>Chocolate Pizza</title>
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css">
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Oswald:wght@400;700&family=Patrick+Hand&family=Yellowtail&display=swap" rel="stylesheet">  </head>
   <body>
     <header>
       <section class="header-left">
         <img src="assets/logo.png" alt="knife-and-fork-icon">
-        <span id="blog-title">Delicious</span>
+        <h2 id="blog-title">Delicious</h2>
         <span id="blog-tag">The Best Food Blog on the Web</span>
       </section>
       <section class="header-right">
@@ -34,8 +34,7 @@
           <a href="https://www.pinterest.com">
             <img src="assets/pint-icon.png" alt="pinterest-icon">
           </a>
-        </section>
-        <section id="contact-links">
+          <a>&nbsp;</a>
           <a href="https://en.wikipedia.org/wiki/RSS">
             <img src="assets/rss-icon.png" alt="rss-icon">
           </a>
@@ -48,10 +47,11 @@
     <hr>
     <main>
       <section id="post-header">
-        <p id="post-title">Chocolate Pizza</p>
+        <h1 id="post-title">Chocolate Pizza</h1>
         <p id="post-date">Posted on 15 Dec 2016 / Deserts</p>
         <button id="print-page">
           <img src="assets/print-icon.png" alt="print-icon">
+          Print
         </button>
       </section>
       <section id="post-image">
@@ -69,7 +69,6 @@
         </p>
       </article>
       <section id="recipe">
-        <img src="assets/list-bg.png" alt="list-background">
         <ul id="recipe-items">
           <li><input type="checkbox" name="recipe-ingredient">1 1/2 cups milk</li>
           <li><input type="checkbox" name="recipe-ingredient">1/2 cup mascarpone</li>
@@ -90,10 +89,15 @@
     <footer>
       <section id="personal-info">
         <img src="assets/van-pic.png" alt="vanessa-headshot">
-        <span id="name">Vanessa Stevenson</span>
+        <h2 id="name">Vanessa Stevenson</h2>
         <span id="tag-line">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</span>
+        <button id="share-recipe">Share Receipe</button>
       </section>
-      <button id="share-recipe">Share Receipe</button>
+      <section id="copyright">
+        <img src="assets/small-logo.png" alt="small-knife-and-fork">
+        <p>Delicious &copy; 2013 &bullet; All Rights Reserved</p>
+        <p>Proudly published with Ghost.</p>
+      </section>
     </footer>
   </body>
 </html>
